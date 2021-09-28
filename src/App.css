@@ -1,0 +1,136 @@
+.Background {
+  background: lightblue;
+  margin: auto;         /* important to center everything */
+  text-align: center;   /* important to center everything */
+  
+}
+
+.alignment {
+  display: inline-block; /* Important to get the profile boxes organised like grid */
+}
+
+.ProfileCard {
+  margin: auto;         /* important to center everything in ProfileBox */
+  text-align: center;   /* important to center everything in ProfileBox*/
+
+  margin: 30px;
+  height: 310px;
+  width: 250px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 2px 3px 10px 2px grey;
+
+  /* display: flex;  */
+  display: inline-block; /*  make the profile grid like */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profilePic {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  /* Size of the circle */
+  height: 125px;
+  min-height: 125px;
+  width: 125px;
+  min-width: 125px;
+  border-radius: 50%;
+  background: lightgrey;
+  font-size: 60px;
+  line-height: 120px; /* Important to get the text in the picture */
+}
+
+.name {
+
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.username {
+  font-style: italic;
+  color: grey;
+}
+
+.website {
+  margin: 5px;
+  color: #27c7eb;
+  text-decoration: underline;
+  text-decoration-color: #0c819c;
+}
+
+.moreDetails {
+
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  height:   40px;
+  width:    180px;
+  background: hsl(226, 67%, 51%);
+  color:white;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.moreDetails:hover {
+  background:#173b67;
+}
+
+.ProfileBoxAlt {
+  text-align: left;
+  margin: 30px;
+  height: 250px;
+  width: 280px;
+  background: white;
+  border-style: solid;
+  border-color: grey;
+
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
