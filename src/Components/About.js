@@ -6,8 +6,7 @@
 export default function About () {
     return (
         <div>
-            This is about    
-
+            This is about
         </div>
     );
     

@@ -16,10 +16,7 @@ function App() {
             <Switch>
                 <Route path='/' exact component={Homepage} />
                 <Route path='/ProfileCard' exact component={ProfileCard} />
-
                 <Route exact path='/ProfileCard/:id' component={ProfileCardDetails}/>
-
-                {/* Testin testing */}
                 <Route path='/about' component={About} />
                 
             </Switch>

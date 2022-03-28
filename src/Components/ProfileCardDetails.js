@@ -22,61 +22,22 @@ const fetchUserData = async () => {
     setUserData(userData);
 };
 
-
-
 return (
-  <div>
+  <div className="profile-card">
         <div> - name: {userData.name}</div>
         <div> - username: {userData.username}</div>
         <div> - email: {userData.email}</div>
         <div> - phone: {userData.phone}</div>
-    
-
         <div> - website: {userData.website}</div>
-
-
         <div> - address: </div>
+        {userData.address.map.((address) => {
+          return <li>address.suit</li>
+          
+        })}
+
           {/* <li>suite:    {userData.address.suite}</li>
           <li>city:     {userData.address.city}</li>
-          <li>zipcode:  {userData.address.zipcode}</li> */}
-      
-                                
-    </div>
+          <li>zipcode:  {userData.address.zipcode}</li>                        */}
+  </div>
   
-)  // End of Return
-
-
-
-
-
-
-}
-
-// ====================
-
-{/* <div>
-        <div> - name: {userData.name}</div>
-        <div> - username: {userData.username}</div>
-        <div> - email: {userData.email}</div>
-        <div> - phone: {userData.phone}</div>
-    
-
-        <div> - website: {userData.website}</div>
-
-
-        <div> - address: </div>
-          <li>street: {userData.address.street}</li>
-          <li>suite: {userData.address.suite}</li>
-          <li>city: {userData.address.city}</li>
-          <li>zipcode: {userData.address.zipcode}</li>
-      
-                                
-    </div> */}
-
-
-    // ============
-
-   
-
-
-
+)}
