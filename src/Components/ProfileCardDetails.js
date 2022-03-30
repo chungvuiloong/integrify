@@ -32,8 +32,6 @@ return (
         <li>suite:    {userData.address?.suite}</li>
         <li>city:     {userData.address?.city}</li>
         <li>zipcode:  {userData.address?.zipcode}</li>  
-          {/* <li>suite:    {userData.address.suite}</li>
-          <li>city:     {userData.address.city}</li>
-          <li>zipcode:  {userData.address.zipcode}</li>   */}
+
   </div>
 )}
