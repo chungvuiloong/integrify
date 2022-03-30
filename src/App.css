@@ -27,6 +27,13 @@
   align-items: center;
 }
 
+.profile-card{
+  padding: 25px;
+  width: 250px;
+  border: 5px dashed black;
+  text-align: left;
+}
+
 .profilePic {
   margin: auto;
   margin-top: 15px;

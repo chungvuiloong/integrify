@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import {useParams} from 'react-router-dom';
 
 
 export default function ProfileCardDetails ({match}) {
@@ -30,9 +29,11 @@ return (
         <div> - phone: {userData.phone}</div>
         <div> - website: {userData.website}</div>
         <div> - address: </div>
+        <li>suite:    {userData.address?.suite}</li>
+        <li>city:     {userData.address?.city}</li>
+        <li>zipcode:  {userData.address?.zipcode}</li>  
           {/* <li>suite:    {userData.address.suite}</li>
           <li>city:     {userData.address.city}</li>
-          <li>zipcode:  {userData.address.zipcode}</li>                        */}
+          <li>zipcode:  {userData.address.zipcode}</li>   */}
   </div>
-  
 )}
