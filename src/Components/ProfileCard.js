@@ -7,7 +7,7 @@ export default function ProfileCard () {
         fetchUserDatas();
       }, []);
 
-const [userDatas, setUserDatas] = useState([]);
+    const [userDatas, setUserDatas] = useState([]);
 
     const fetchUserDatas = async () => {
         const data = await fetch (
