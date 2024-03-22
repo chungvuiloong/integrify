@@ -1,9 +1,6 @@
 import './App.css';
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter as BRouter, Switch, Route} from 'react-router-dom';
-
-
-import ProfileCard from './Components/ProfileCard';
 import About from './Components/About';
 import Homepage from './Components/Homepage';
 import ProfileCardDetails from './Components/ProfileCardDetails';
