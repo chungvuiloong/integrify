@@ -12,7 +12,7 @@ import ProfileCardDetails from './Components/ProfileCardDetails';
 function App() {
   return (
     <BRouter>
-        <div className="App">
+        <div className="min-h-dvh bg-blue-200">
             <Switch>
                 <Route path='/' exact component={Homepage} />
                 <Route path='/ProfileCard' exact component={ProfileCard} />

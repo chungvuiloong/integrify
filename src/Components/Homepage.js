@@ -10,7 +10,6 @@ export default function Homepage () {
             <ProfileCard/>
             <Switch>
             </Switch>
-
           </div>
         )
   }
