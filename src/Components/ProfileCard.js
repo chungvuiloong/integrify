@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Link, link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 export default function ProfileCard () {
@@ -19,8 +19,7 @@ export default function ProfileCard () {
     };
 
       return (
-        <div className="Background">
-            <div className="Alignment"> 
+        <>
                 {userDatas.map(userData => (
                     <div className = "ProfileCard" key={userData.id}>
                     <div className = "profilePic"> {userData.name.charAt(0)}</div>
@@ -31,9 +30,7 @@ export default function ProfileCard () {
                         <div className = "moreDetails">MORE DETAILS</div>
                     </Link>
                     </div>
-
                 ))}                 
-            </div>
-        </div>
+        </>
       )
 }
