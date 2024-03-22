@@ -26,7 +26,7 @@ export default function ProfileCard () {
                     <div className = "name">        {userData.name}</div>
                     <div className = "username">   @{userData.username}</div>
                     <div className = "website">http://{userData.website}</div>
-                    <Link to={`/ProfileCard/${userData.id}`}>
+                    <Link to={`/profileCard/${userData.id}`}>
                         <div className = "moreDetails">MORE DETAILS</div>
                     </Link>
                     </div>
