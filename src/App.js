@@ -15,8 +15,8 @@ function App() {
         <div className="min-h-dvh bg-blue-200">
             <Switch>
                 <Route path='/' exact component={Homepage} />
-                <Route path='/profileCard' exact component={ProfileCard} />
-                <Route exact path='/profileCard/:id' component={ProfileCardDetails}/>
+                {/* <Route path='/user' exact component={ProfileCard} /> */}
+                <Route exact path='/users/:id' component={ProfileCardDetails}/>
                 <Route path='/about' component={About} />
             </Switch>
         </div>

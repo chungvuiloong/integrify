@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
-
 export default function ProfileCard () {
       useEffect(() => {
         fetchUserDatas();
@@ -26,7 +25,7 @@ export default function ProfileCard () {
                     <div className = "name">        {userData.name}</div>
                     <div className = "username">   @{userData.username}</div>
                     <div className = "website">http://{userData.website}</div>
-                    <Link to={`/profileCard/${userData.id}`}>
+                    <Link to={`/users/${userData.id}`}>
                         <div className = "moreDetails">MORE DETAILS</div>
                     </Link>
                     </div>
