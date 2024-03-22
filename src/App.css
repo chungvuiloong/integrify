@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .Background {
   background: lightblue;
   margin: auto;         /* important to center everything */
